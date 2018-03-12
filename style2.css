@@ -1,0 +1,49 @@
+body
+{
+
+}
+
+
+#elisamanzoni
+{
+  font: 50px courier;
+  color: #00a79d;
+  margin-top:300px;
+  margin-bottom:800px;
+}
+
+h1
+{
+  font: 30px courier;
+  color: #00a79d;
+  margin-top:300px;
+  margin-bottom:50px;
+  margin-left:200px;
+    margin-right:200px;
+}
+
+ul
+{
+  position: fixed;
+  color:#00a79d63;
+  font: 20px/40px courier;
+}
+
+p
+{
+  font: 18px "Century Gothic";
+  margin-left:300px;
+  margin-right:300px;
+  margin-top: 0px;
+}
+
+a
+{
+  color:inherit;
+}
+
+li:hover
+{
+  font-size:25px;
+  color:#00a79d;
+}
