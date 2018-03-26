@@ -24,6 +24,7 @@ h1
 
 ul
 {
+  
   position: fixed;
   color:#00a79d63;
   font: 20px/40px courier;
@@ -31,10 +32,13 @@ ul
 
 p
 {
-  font: 18px "Century Gothic";
+  font-family: 'Slabo 27px', serif;
+  font-size: 15px;
   margin-left:300px;
   margin-right:300px;
-  margin-top: 0px;
+  margin-top: -10px;
+  color: rgba(0, 0, 0, 0.6);
+  text-align:center;
 }
 
 a
@@ -44,6 +48,7 @@ a
 
 li:hover
 {
+
   font-size:25px;
   color:#00a79d;
 }
