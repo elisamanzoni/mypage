@@ -1,11 +1,12 @@
-body
-{
-
+@@keyframes opacity {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
 
 
 #elisamanzoni
 {
+  animation: opacity 10s;
   font: 50px courier;
   color: #00a79d;
   margin-top:300px;
@@ -22,26 +23,20 @@ h1
     margin-right:200px;
 }
 
-ul
+#box
 {
   position: fixed;
-  top: 30;
+  transform: translate(0, -50%);
+  margin-top: -5%;
+}
+
+ul
+{
   color:#00a79d63;
   font: 20px/40px courier;
   padding-top:0;
 }
 
-ul::before{
-  display:inline-block;
-  position: relative;
-  top:0px;
-  content:"";
-  background: url(logo E.svg);
-  width:80px;
-  height:80px;
-  margin: -20px 20px 0 0;
-  background-size: 100%;
-}
 
 p
 {
